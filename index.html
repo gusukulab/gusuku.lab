@@ -1,0 +1,20 @@
+html<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>グスクラボ</title>
+</head>
+<body>
+
+<iframe id=download_iframe name=download_iframe 
+  onload='if(downloading){window.location="https://drive.google.com/file/d/1p6580mfbguv-uCg4UcZ6DMC-BHotRS6T/view?usp=drive_link";}'
+  style=display:none></iframe>
+
+<form action=https://docs.google.com/forms/d/e/1FAIpQLSdg9dyVpUHOLSQaN2GRs59SslmwbO0S_xkMfMc20t5B9KSYCw/formResponse
+  method=post onsubmit="downloading=!0" target=download_iframe>
+  <input name="entry.2006103223" value="example.zip" type="hidden">
+  <input type="submit" value="武部のグスク論文をダウンロード">
+</form>
+
+</body>
+</html>
